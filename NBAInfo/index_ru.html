@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+  <title>NBAInfo</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <!--<a href="#" class="navbar-brand">Menu</a> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" 
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="basicExampleNav"> 
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="active">
+              <a href="index_ru.html" class="nav-link waves-effect waves-light">ГЛАВНАЯ</a>
+            </li>
+            <li class="">
+              <a href="teams_ru.html" class="nav-link waves-effect waves-light">КОМАНДЫ</a>
+            </li>
+            <li class="">
+              <a href="history_ru.html" class="nav-link waves-effect waves-light">ИСТОРИЯ</a>
+            </li>
+            <li class="">
+              <a href="game_rules_ru.html" class="nav-link waves-effect waves-light">ПРАВИЛА ИГРЫ</a>
+            </li>
+            <li class="">
+              <a href="season_regulations_ru.html" class="nav-link waves-effect waves-light">РЕГЛАМЕНТ СЕЗОНА</a>
+            </li>
+            <li class="">
+              <a href="top_players_ru.html" class="nav-link waves-effect waves-light">ТОП ИГРОКОВ</a>
+            </li>
+            <li class="">
+              <a href="gallery_ru.html" class="nav-link waves-effect waves-light">ГАЛЕРЕЯ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">ЯЗЫК</a>
+              <div class="dropdown-menu dropdown-default">
+                <a class="dropdown-item" href="index.html">Английский</a>
+                <a class="dropdown-item" href="index_ru.html">Руский</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="https://uk-ua.facebook.com/nba" class="nav-link waves-effect waves-light">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/nba/?hl=uk" class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.youtube.com/user/NBA" class="nav-link waves-effect waves-light">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                NBAInfo
+              </h2>
+              <hr class="hr-light">
+              <h4 class="white-text my-4">УЗНАЙТЕ ВСЕ ЧТО ВЫ ХОТЕЛИ И НАЧНИТЕ ПОНИМАТЬ ИГРУ</h4>
+              <a href="https://www.nba.com/"><button class="btn btn-outline-white waves-effect waves-light">Читать больше</button></a>
+              
+            </div>
+            
+          </div>
+        
+      </div>
+      
+    </div>
+  </header>
+
+  <main class="mt-5">
+    <div class="container">
+
+<button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#my-modal">Добро пожаловать на наш сайт )</button>
+
+
+<div class="modal fade" id="my-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Закрыть</span></button>
+        
+      </div>
+      <div class="modal-body">
+        <p id="modal">Мы рады каждому посетителю на нашем сайте&hellip;</p>
+        <img src="img/hello.jpg">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
+        
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+<hr class="my-5">
+
+      <section id="examples" class="text-center">
+
+        <h2 class="mb-5 font-weight-bold">По каким правилам играют в НБА?</h2>
+        <div class="row">
+
+        
+<div class="col-md-6 col-lg-6">
+      <div class="card-deck">
+
+    <!-- Card -->
+        <div class="card mb-4">
+
+      <!--Card image-->
+          <div class="view overlay">
+            <img class="card-img-top" src="img/regulations.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="text-center"><h4 class="mb-5 font-weight-bold"><br>Регламент сезона</h4></div>
+          <div class="card-body">
+            <p class="card-text text-md-left">Национальная баскетбольная лига консервативна и старается не менять правила без необходимости. Прежде всего, это касается системы сезона. Этот регламент не менялся долгое время - с 1968 года. И это несмотря на то, что количество команд в НБА периодически увеличивается.</p>
+
+            <p class="card-text text-md-left">По своему географическому положению клубы НБА делятся на конференции - западные и восточные. Каждое из них включает 3 подразделения: Тихоокеанское, Северо- и Юго-Западное (относятся к западу), Центральное, Юго-восточное и Атлантическое (относятся к Востоку).</p>
+
+            <a href="season_regulations_ru.html" class="orange-text d-flex flex-row-reverse p-2">
+              <h5 class="waves-effect waves-light">Читать больше<i class="fas fa-angle-double-right ml-2"></i></h5>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="col-md-6 col-lg-6">
+      <div class="card-deck">
+
+    <!-- Card -->
+        <div class="card mb-4">
+
+      <!--Card image-->
+          <div class="view overlay">
+            <img class="card-img-top" src="img/rules.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <div class="text-center"><h4 class="mb-5 font-weight-bold"><br>Правила игры</h4></div>
+          <div class="card-body">
+            <p class="card-text text-md-left">Изначально правила игры в баскетбол были сформулированы американцем Джеймсом Нейсмит и состоял всего из 13 пунктов. Баскетбол со временем менялся, и правила требовали изменений. Первые международные правила игры были приняты в 1932 году на первом Конгрессе ФИБА, после чего они неоднократно корректировались и изменялись, последние существенные изменения были внесены в 1998 и 2004 годах. С 2004 года правила игры остаются неизменными. Правила игры немного отличаются в НБА и чемпионатах, проводимых под эгидой ФИБА (Чемпионаты мира, Олимпийские игры, Чемпионаты континентов, международные и национальные чемпионаты европейских клубов) ...</p>
+
+            <a href="game_rules_ru.html" class="orange-text d-flex flex-row-reverse p-2">
+              <h5 class="waves-effect waves-light">Читать больше<i class="fas fa-angle-double-right ml-2"></i></h5>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+      </div>
+
+
+
+
+      </section>
+      <hr class="my-5">
+
+
+      <section id="best-features" class="text-center">
+        <h2 class="mb-5 font-weight-bold">Топ игроков</h2>
+        <div class="row d-flex justify-content-center mb-4">
+          <div class="col-md-8">
+            <p class="grey-text"><h4><strong>
+              Sports Illustrated опубликовал рейтинг 100 лучших игроков НБА. Леброн, Яннис, Кавай - в первых трех ...</strong></h4>
+            </p>
+            
+          </div>
+          
+        </div>
+        <div class="row">
+
+
+            <div class="col-md-4 mb-5">
+              <div class="card card-cascade">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/tp1.png" alt="Card image cap">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title"><strong>Яннис Адетокунбо (Bucks)</strong></h4>
+                  <h6 class="font-weight-bold indigo-text py-2">Топ-1</h6>
+                  <p class="card-text">И первое место это ... «Самый ценный игрок сезона 2018/2019» Яннис Адетокунбо. SI буквально написал следующее: «Будущее за ним! Это мир Янниса!»
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="card card-cascade">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/tp2.png" alt="Card image cap">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title"><strong>Кавай Ленард (Clippers)</strong></h4>
+                  <h6 class="font-weight-bold indigo-text py-2">Топ-2</h6>
+                  <p class="card-text">MVP финального плей-офф 2019 года скромно взял бронзу топа.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="card card-cascade">
+                <div class="view view-cascade overlay">
+                  <img class="card-img-top" src="img/tp3.png" alt="Card image cap">
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body card-body-cascade text-center">
+                  <h4 class="card-title"><strong>Леброн Джеймс (The Lakers)</strong></h4>
+                  <h6 class="font-weight-bold indigo-text py-2">Топ-3</h6>
+                  <p class="card-text">В тройку лидеров входит: Человек, которого многие считают «лицом и голосом современной Лиги». Регулярный на многих из этих рейтинговых списков.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr class="my-5">
+
+
+      <section id="gallery">
+        <h2 class="mb-5 font-weight-bold text-center">Галерея</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div id="carousel-example-lz" class="carousel slide carousel-fade" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-lz" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-lz" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-example-lz" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-example-lz" data-slide-to="2" class=""></li>
+                <li data-target="#carousel-example-lz" data-slide-to="2" class=""></li>
+              </ol>
+
+              <div class="carousel-inner z-depth-1-half" role="listbox">
+                <div class="carousel-item active">
+                  <img src="img/zach.jpg" alt="" class="d-block w-100">
+                  
+                </div>
+                 <div class="carousel-item">
+                  <img src="img/tatum.jpg" alt="" class="d-block w-100">
+                  
+                </div>
+                 <div class="carousel-item">
+                  <img src="img/kavai.jpg" alt="" class="d-block w-100">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="img/giannis.jpeg" alt="" class="d-block w-100">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img src="img/antoni.jpg" alt="" class="d-block w-100">
+                  
+                </div>
+                
+              </div>
+              <a href="#carousel-example-lz" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </a>
+               <a href="#carousel-example-lz" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </a>
+              
+              
+            </div>
+            
+          </div>
+
+          <div class="col-md-6">
+            <h4 class="mb-3">
+              <strong>Загляните в нашу галерею</strong>
+            </h4>
+            <p>Картинки на любой вкус для фанатов НБА и баскетбола</p>
+            
+            <p>Если вы хотите увидеть больше, проверьте нашу галерею, нажав на кнопку ниже. Яркие картинки высокого качества и любого размера ждут вас.</p>
+              <a href="gallery_ru.html" class="btn btn-primary btn-md waves-effect waves-light">Посмотреть больше</a>
+
+            
+          </div>
+
+        </div>
+        
+      </section>
+      <hr class="my-5">
+
+      <section id="contact">
+        <h2 class="mb-5 font-weight-bold text-center">Напишите нам</h2>
+        <div class="row">
+          <div class="col-lg-5 col-md-12">
+            <form class="p-5">
+              <div class="md-form form-sm">
+                <i class="fa fa-user prefix grey-text"></i>
+                <input type="text" id="form3" class="form-control form-control-sm">
+                <label for="form3">Ваше имя:</label>
+              </div>
+                <div class="md-form form-sm">
+                <i class="fa fa-envelope prefix grey-text"></i>
+                <input type="text" id="form2" class="form-control form-control-sm">
+                <label for="form2">Ваш email:</label>
+              </div>
+                <div class="md-form form-sm">
+                <i class="fa fa-tag prefix grey-text"></i>
+                <input type="text" id="form32" class="form-control form-control-sm">
+                <label for="form32">Тема:</label>
+              </div>
+                <div class="md-form form-sm">
+                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="3"></textarea> 
+                <label for="form8">Ваше сообщение:</label>
+              </div>
+              <div class="text-center mt-4">
+                <button class="btn btn-primary waves-effect waves-light">ОТПРАВИТЬ</button>
+                
+              </div>
+              
+            </form>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="row text-center">
+              <div class="col-lg-4 col-md-12 mb-3">
+                <p><i class="fa fa-map fa-1x mr-2 grey-text"> Винница</i></p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-3">
+                <p><i class="fa fa-building fa-1x mr-2 grey-text"> Пон-Пятн</i></p>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-3">
+                <p><i class="fa fa-phone fa-1x mr-2 grey-text"> +380 673 88 46 77</i></p>
+              </div>
+              
+            </div>
+            
+          </div>
+
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="page-footer font-small unique-color-dark pt-0">
+    <div class="primary-color">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text">Свяжитесь с нами в социальных сетях!</h6>
+            
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <a href="https://web.telegram.org/#/im" class="fb-ic ml-0">
+              <i class="fab fa-telegram white-text mr-4"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=uk" class="fb-ic ml-0">
+              <i class="fab fa-instagram white-text mr-4"></i>
+            </a>
+           
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+
+    <div class="container mt-5 mb-4 text-center text-md-left">
+      <div class="row mt-3">
+        <div class="col-md-6 col-lg-6 col-xl-6 mb-4">
+          <h6 class="text-uppercase font-weight-bold">АВТОР</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
+          <p>Этот сайт не является официальным сайтом НБА, он создан для образовательных целей, ссылки на официальные источники указаны в разделе контактов ....</p>
+              <br>
+              <br>
+              <p><span class="sz-l">Связаться с нами: (+380673884677)</span></p>
+        <p><span class="sz-l">Написать на почту: pavlovmikola01@gmail.com</span></p>
+          
+        </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Контакты</h6>
+
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
+          <p>Официальные страницы в социальных сетях</p>
+          <a href="https://www.nba.com/" class="btn btn-primary btn-md waves-effect waves-light">ОФИЦИАЛЬНЫЙ САЙТ НБА</a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>

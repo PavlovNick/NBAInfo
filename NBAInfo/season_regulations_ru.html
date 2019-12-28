@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet">
+  <title>NBAInfo</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+      <div class="container">
+        <!--<a href="#" class="navbar-brand">Menu</a> -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" 
+        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="basicExampleNav"> 
+          <ul class="navbar-nav mr-auto smooth-scroll">
+            <li class="">
+              <a href="index_ru.html" class="nav-link waves-effect waves-light">ГЛАВНАЯ</a>
+            </li>
+            <li class="">
+              <a href="teams_ru.html" class="nav-link waves-effect waves-light">КОМАНДЫ</a>
+            </li>
+            <li class="">
+              <a href="history_ru.html" class="nav-link waves-effect waves-light">ИСТОРИЯ</a>
+            </li>
+            <li class="">
+              <a href="game_rules_ru.html" class="nav-link waves-effect waves-light">ПРАВИЛА ИГРЫ</a>
+            </li>
+            <li class="active">
+              <a href="season_regulations_ru.html" class="nav-link waves-effect waves-light">РЕГЛАМЕНТ СЕЗОНА</a>
+            </li>
+            <li class="">
+              <a href="top_players_ru.html" class="nav-link waves-effect waves-light">ТОП ИГРОКОВ</a>
+            </li>
+            <li class="">
+              <a href="gallery_ru.html" class="nav-link waves-effect waves-light">ГАЛЕРЕЯ</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="false">ЯЗЫК</a>
+              <div class="dropdown-menu dropdown-default">
+                <a class="dropdown-item" href="season_regulations.html">Английский</a>
+                <a class="dropdown-item" href="season_regulations_ru.html">руский</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="https://uk-ua.facebook.com/nba" class="nav-link waves-effect waves-light">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.instagram.com/nba/?hl=uk" class="nav-link waves-effect waves-light">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.youtube.com/user/NBA" class="nav-link waves-effect waves-light">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-10">
+              <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">
+                РЕГЛАМЕНТ СЕЗОНА
+              </h2>
+              <hr class="hr-light">
+              <h4 class="white-text my-4">УЗНАЙТЕ КАК ПРОХОДИТ СЕЗОН В НБА</h4>
+              <a href="https://www.nba.com/"><button class="btn btn-outline-white waves-effect waves-light">Читать больше</button></a>
+              
+            </div>
+            
+          </div>
+        
+      </div>
+      
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex justify-content-center">
+        <p id="modal">В этой статье вы можете узнать, как проходит сезон в лучшей лиге мира.&hellip;</p></div>
+        <div class="d-flex justify-content-center">
+        <img src="img/season.jpg">
+      </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <main class="mt-5">
+    <div class="d-flex justify-content-center mb-4">
+    <div class="col-md-10">
+      <div class="card-deck">
+
+    <!-- Card -->
+        <div class="card mb-4">
+
+      <!--Card image-->
+          <div class="view overlay">
+            <img class="card-img-top" src="img/nba.png" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+            <button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target=".bs-example-modal-lg"></button>
+          </div>
+          <div class="card-body">
+
+
+    <p class="card-text">Национальная баскетбольная лига консервативна и старается без необходимости правила не менять. В первую очередь это касается системы проведения сезона. Не менялся этот регламент давно – с 1968 года. И это несмотря на то, что количество команд в NBA периодически увеличивается.</p>
+
+    <p class="card-text">Согласно своему географическому положению клубы NBA делятся на конференции – Западную и Восточную. В состав каждой из них входит по 3 дивизиона: Тихоокеанский, Северо- и Юго-Западный (относятся к Западной), Центральный, Юго-Восточный и Атлантический (относятся к Восточной).</p>
+
+    <p class="card-text">Сезон начинается с регулярного чемпионата. В нём все команды проводят одинаковое количество игр. По 4 встречи каждая команда играет с клубами своей конференции (два домашних матча и два выездных). Остальные игры проводятся с клубами, представляющими другую конференцию. Тут количество матчей с каждой из команд может быть разным. С некоторыми клубами играется 2 матча, с другими – 3. Всё зависит от того, как составлен календарь, который формируется автоматически с помощью специальной программы.</p>
+
+    <p class="card-text">По итогам регулярного сезона клубы, которые набрали в своём дивизионе большее количество очков, получают звание чемпионов регулярки и автоматически выходят в плей-офф. Остальные команды конференции распределяют между собой места в зависимости от разницы количества побед и поражений в сезоне. Пять лучших клубов также отправляются во второй этап. В итоге из каждой конференции в плей-офф выходят по 8 команд. </p>
+
+    <p class="card-text"> На этом этапе клубы разделяются на пары и играют по олимпийской системе серии игр до 4-х побед. Пары формируются в зависимости от количества побед и поражений в сезоне (разнице между ними). При этом команда, занявшая в своей конференции по этому параметру первое место, встречается с последней, 2-е – с 7-й, 3-я играет с 6-й, а 4-я – с 5-й. В следующем круге победители пар встречаются по той же схеме, и лишь финал проходит между клубами из разных конференций. </p>
+
+    <p class="card-text"> Как правило, регулярный чемпионат начинается в самом конце октября, а заканчивается во второй декаде апреля. А вот плей-офф может идти вплоть до середины июня.</p>
+    </div>
+    <br>
+    <br>
+
+    <!-- Link -->
+    <a href="http://alvin-almazov.ru/basketball/kak-proxodit-sezon-v-nba/" class="orange-text d-flex flex-row-reverse p-2">
+      <h5 class="waves-effect waves-light">Читать больше<i class="fas fa-angle-double-right ml-2"></i></h5>
+    </a>
+
+  </div>
+  <!-- Card content -->
+</div>
+</div>
+</div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="page-footer font-small unique-color-dark pt-0">
+    <div class="primary-color">
+      <div class="container">
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text">Свяжитесь с нами в социальных сетях!</h6>
+            
+          </div>
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+            <a href="https://web.telegram.org/#/im" class="fb-ic ml-0">
+              <i class="fab fa-telegram white-text mr-4"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=uk" class="fb-ic ml-0">
+              <i class="fab fa-instagram white-text mr-4"></i>
+            </a>
+           
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+
+
+    <div class="container mt-5 mb-4 text-center text-md-left">
+      <div class="row mt-3">
+        <div class="col-md-6 col-lg-6 col-xl-6 mb-4">
+          <h6 class="text-uppercase font-weight-bold">АВТОР</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
+          <p>Этот сайт не является официальным сайтом НБА, он создан для образовательных целей, ссылки на официальные источники указаны в разделе контактов ....</p>
+              <br>
+              <br>
+              <p><span class="sz-l">Связаться с нами: (+380673884677)</span></p>
+        <p><span class="sz-l">Написать на почту: pavlovmikola01@gmail.com</span></p>
+          
+        </div>
+          <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold">Контакты</h6>
+
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto">
+          <p>Официальные страницы в социальных сетях</p>
+          <a href="https://www.nba.com/" class="btn btn-primary btn-md waves-effect waves-light">ОФИЦИАЛЬНЫЙ САЙТ НБА</a>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
